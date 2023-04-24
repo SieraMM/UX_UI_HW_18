@@ -1,0 +1,302 @@
+body {
+    background-color: #F5F4EF;
+    color: #001629;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h2 {
+    font-size: 33.2;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 21.3;
+    font-weight: 100;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #181E3F;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 75px;
+    border: 2px solid red;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+
+    width: 100px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    align-items: center;
+
+
+    width: 93%;
+}
+
+a {
+    margin-right: 5%;
+}
+
+.resume a {
+    margin-right: 2%;
+}
+
+.button {
+    border-radius: 100px;
+    border: 3px solid #181E3F;
+    background-color: #4152A5;
+    box-shadow: 4px 5px 0px #181E3F;
+    color: #F5F4EF;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.darkmode {
+    color: #4152A5;
+    border: 3px solid #4152A5;
+    background-color: #F5F4EF;
+}
+
+.display {
+    font-family: paralucent, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    margin-right: inherit;
+    border: 2px solid red;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin-right: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid red;
+}
+
+.center h1 {
+    text-align: left;
+}
+
+.center p {
+
+    max-width: 80%;
+    font-weight: 100;
+    font-size: 27px;
+}
+
+.social_media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social_media a {
+    margin-right: 20%;
+}
+
+.pfp {
+    width: 600px;
+    height: auto;
+    margin-right: 125px;
+    /*display:flex;
+    justify-content: flex-end;
+    width: 100px;*/
+}
+
+.marquee {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4152A5;
+    border-bottom: 5px solid #181e3f;
+    color: #F5F4EF;
+    font-size: 22px;
+    font-weight: 100;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+
+.marquee h4 {
+    font-size: 35px;
+}
+
+.RW {
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.work_scroll {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: auto;
+    height: 550px;
+    padding-top: 75px;
+    padding-left: 800px;
+    border: 2px solid red;
+
+}
+
+.scroll-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 600px;
+    background-image: url("background-porto-01.svg");
+    height: 500px;
+    width: 818px;
+    background-color: #F5F4EF;
+    border: 4px solid #181e3f;
+    border-radius: 50px;
+    box-shadow: 10px 10px 0px #181E3F;
+
+}
+
+
+/*.secondary_flow img {
+    max-height: 300px;
+    padding-right: 200px;
+    padding-left: 200px;
+}  the cellphone immage is so funky. might need this code*/
+
+
+
+.flow_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: 3px solid #181E3F;
+}
+
+.learn_more {
+    position: absolute;
+    left: 600px;
+    bottom: 20px;
+    margin:auto;
+    height: 44px;
+    width: 180px;
+    text-align: center;
+    
+}
+.learn_more a {
+    text-align: center;
+}
+
+.span_h2 {
+
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.span_h4 {
+    margin: 0px;
+
+    font-size: 30px;
+    color: rgb(24, 30, 63, 50%);
+
+}
+
+.flow_img {
+    display: flex;
+    height: 60%;
+    padding: 30px 50px;
+    width: 818px;
+
+
+}
+
+.footer {
+    background-color: #4152A5;
+    color: #F5F4EF;
+    height: 462px;
+}
+
+.upperline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding-top: 20px;
+    height: 75px;
+    border-bottom: 2px solid #F5F4EF;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    padding-right: 15%;
+    font-size: 25px;
+}
+
+.lower_line {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 20px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.about_me,
+.connection,
+.banner {
+    display: flex;
+}
+
+.about_me {
+    margin-bottom: 20px;
+    font-size: 22px;
+    max-width: 50%;
+}
+
+.connection {
+    margin-bottom: -15px;
+}
+
+
+/* .github .linkedin img{
+    width: 40px;
+     height: 40px;
+}
+*/
